@@ -1,5 +1,5 @@
-# Created by https://www.gitignore.io/api/c++,linux,windows
-# Edit at https://www.gitignore.io/?templates=c++,linux,windows
+# Created by https://www.gitignore.io/api/c++,linux
+# Edit at https://www.gitignore.io/?templates=c++,linux
 
 ### C++ ###
 # Prerequisites
@@ -9,7 +9,7 @@
 *.slo
 *.lo
 *.o
-*.obj
+##  no ignoramos estos por q son las animacion *.obj
 
 # Precompiled Headers
 *.gch
@@ -50,29 +50,5 @@
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
 
-### Windows ###
-# Windows thumbnail cache files
-Thumbs.db
-ehthumbs.db
-ehthumbs_vista.db
+# End of https://www.gitignore.io/api/c++,linux
 
-# Dump file
-*.stackdump
-
-# Folder config file
-[Dd]esktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msix
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# End of https://www.gitignore.io/api/c++,linux,windows
